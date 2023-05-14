@@ -1,0 +1,59 @@
+.lil-cont{
+width:300px;
+
+padding:10px;
+margin-top:10px;
+/* background-color: rgba(29, 120, 9, 0.453); */
+border:1px solid white;
+border-radius: 5px;
+text-decoration: none;
+transition: 0.5s;
+cursor: pointer;
+
+}
+
+.lil-cont:hover{
+    background-color:rgb(31, 28, 28) ;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* .lil-cont input{
+display:none;
+} */
+.over{
+    cursor:pointer;
+    /* font-size:5px; */
+    width:300px;
+    position: absolute;
+    height:30px;
+    z-index:3;
+    /* font-size:30px; */
+    
+}
+.over h2{
+    color:transparent;
+    font-size:5px;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+.lil-cont button{
+    width:100%;
+    height:max-content;
+    cursor: pointer;
+    position: relative;
+    height:30px;
+    font-size:20px;
+    background-color: white;
+    border:1px solid red;
+}
+@media only screen and (max-width: 365px) {
+
+   .lil-cont{
+    width:240px;
+   }
+   
+    
+}

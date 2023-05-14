@@ -1,0 +1,79 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+.everyinfo{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    border-radius: 10px;
+    /* background-color: rgba(29, 120, 9, 0.453); */
+    border:1px solid white;
+    padding-bottom: 30px;
+}
+button{
+    width:200px;
+    height:35px;
+    background-color: black;
+    outline: 0;
+    border-radius: 10px;
+    cursor:pointer;
+    border:1px solid white;
+    transition: 0.5s;
+    color:white;
+    font-size: 18px;
+}
+button:hover{
+    background-color:rgb(31, 28, 28) ;
+ 
+   
+   
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .everyinfo{
+        padding:10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:400px;
+        border-radius: 10px;
+        /* background-color: rgba(29, 120, 9, 0.453); */
+        border:1px solid white;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .everyinfo{
+        width:300px;
+    }
+    button{
+        width:170px;
+        height:30px;
+        background-color: black;
+        outline: 0;
+        border-radius: 10px;
+        cursor:pointer;
+        border:1px solid white;
+        transition: 0.5s;
+        color:white;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 350px) {
+
+    .everyinfo{
+        width:250px;
+        font-size: 15px;
+    }
+}

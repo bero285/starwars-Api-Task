@@ -1,0 +1,110 @@
+.container{
+    text-decoration: none;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    
+}
+.pagetion{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    padding:0px;
+    /* border:1px solid white; */
+    width:auto;
+}
+.pagetion li{
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width:30px;
+    height:30px;
+    margin:15px;
+    font-size:22px;
+    /* background-color: rgba(29, 120, 9, 0.453); */
+    border:1px solid white;
+    transition: 0.5s;
+    /* padding-bottom: 30px; */
+}
+.pagetion li:hover{
+background-color:rgb(31, 28, 28) ;
+    
+}
+.pagetion .move{
+    width:70px;
+    height:30px;
+}
+.searchEngine{
+    width:300px;
+    height:30px;
+    font-size:20px;
+    /* border:2px solid red; */
+    border:1px solid white;
+    transition: 0.5s;
+    background-color: black;
+    outline: none;
+    font-size: 20px;
+    padding:5px;
+    color:white
+}
+
+.searchEngine:hover{
+    background-color:rgb(31, 28, 28) ;
+}
+
+.searchEngine::placeholder{
+    color:white;
+}
+@media only screen and (max-width: 365px) {
+    .searchEngine{
+        width:90%;
+        height:30px;
+        font-size:20px;
+        border:1px solid white;
+        transition: 0.5s;
+        background-color: black;
+        outline: none;
+        font-size: 20px;
+        padding:5px;
+        color:white
+    }
+    
+    .searchEngine:hover{
+        background-color:rgb(31, 28, 28) ;
+    }
+    .pagetion li{
+        cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid black;
+        width:25px;
+        height:25px;
+     
+        font-size:18px;
+        border:1px solid white;
+        transition: 0.5s;
+    }
+    .pagetion .move{
+        padding-inline:7px;
+        width:50px;
+        /* height:25px; */
+    }
+    .pagetion{
+        justify-content: flex-start;
+        width:260px;
+        text-decoration: none;
+        display:flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center;
+        margin-left:-20px;
+    }
+}
