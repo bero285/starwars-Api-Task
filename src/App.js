@@ -188,7 +188,7 @@ function App() {
           <Link
             onClick={changePage}
             to={{
-              pathname: `/home/${pageNum}`,
+              pathname: `/starwars-Api-Task/home/${pageNum}`,
             }}
           >
             <li>{pageNum}</li>
@@ -197,7 +197,7 @@ function App() {
             <Link
               onClick={changePageDIf}
               to={{
-                pathname: `/home/${pageNum + 1}`,
+                pathname: `/starwars-Api-Task/home/${pageNum + 1}`,
               }}
             >
               {" "}

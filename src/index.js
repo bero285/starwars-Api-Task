@@ -9,11 +9,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Navigate to="/home/1" />} />
+      <Route
+        path="/starwars-Api-Task/"
+        element={<Navigate to="/starwars-Api-Task/home/1" />}
+      />
 
-      <Route path="/home/:id" element={<App />} />
+      <Route path="/starwars-Api-Task/home/:id" element={<App />} />
 
-      <Route path="/about/:id" element={<InfoCard />} />
+      <Route path="/starwars-Api-Task/about/:id" element={<InfoCard />} />
     </Routes>
   </BrowserRouter>
 );
