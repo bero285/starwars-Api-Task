@@ -15,7 +15,7 @@ const Card = (props) => {
   
       <Link
         to={{
-          pathname: `/starwars-Api-Task/about/${a}`,
+          pathname: `/star-wars-Api-Task/about/${a}`,
         }}
         state={props.url}
         onClick={props.showCard}

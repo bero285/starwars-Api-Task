@@ -32,7 +32,7 @@ const InfoCard = (props) => {
       <h2>skin color: {info.skin_color}</h2>
       <h2>eye color: {info.eye_color}</h2>
 
-      <Link to="/starwars-Api-Task/home/">
+      <Link to="/star-wars-Api-Task/home/">
         <button onClick={() => navigate(-1)}>Get Back</button>
       </Link>
     </div>
